@@ -439,3 +439,12 @@ footer {
 footer p {
   text-align: center;
 }
+/* Uniform project image sizing & alignment */
+.project-img {
+  width: 100%;
+  height: 220px; /* consistent height for all */
+  object-fit: cover; /* ensures image fills the box evenly */
+  border-radius: 1rem; /* keeps the same rounded corners */
+  display: block;
+  margin: 0 auto;
+}
